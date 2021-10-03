@@ -1,0 +1,17 @@
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.error {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}

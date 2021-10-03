@@ -1,0 +1,15 @@
+.ImageGallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .ImageGallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

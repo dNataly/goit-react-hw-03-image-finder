@@ -1,0 +1,29 @@
+.Searchbar {
+  margin: 0;
+  width: 100%;
+  background: #404fb6;
+  padding: 7px 0;
+  -webkit-box-shadow: -1px 5px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -1px 5px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -1px 5px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.SearchForm {
+  background: #fff;
+  max-width: 30%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3px 0;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  border-radius: 2px;
+}
+
+.SearchFormButton {
+  background: transparent;
+  border: none;
+}
+
+.SearchFormInput {
+  border: none;
+}
