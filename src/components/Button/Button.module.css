@@ -1,7 +1,7 @@
 .Button {
   min-width: 130px;
   display: block;
-  margin: 0 auto 20px;
+  margin: 20px auto;
   height: 40px;
   color: #fff;
   padding: 5px 10px;
@@ -12,6 +12,7 @@
   border-radius: 20px;
   border: 2px solid #2c0b8e;
   background: #2c0b8e;
+  z-index: 10000;
 }
 
 .Button:hover {
